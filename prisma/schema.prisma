@@ -29,7 +29,6 @@ model Car {
 model Message {
   id            Int    @id @default(autoincrement())
   name          String
-  numberOfSeats Int
   email         String
   phone         String
   message       String
